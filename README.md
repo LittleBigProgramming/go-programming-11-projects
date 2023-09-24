@@ -50,7 +50,7 @@ More information can be found of this here - https://gorm.io/docs/connecting_to_
 ### Creating a Book
 Request:
 ```
-curl --location 'http://locahost/book' \
+curl --location 'http://localhost/book' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -76,7 +76,7 @@ Response
 ### Get Books
 Request:
 ```
-curl --location 'http://locahost/book' \
+curl --location 'http://localhost/book' \
 --header 'Accept: application/json'
 ```
 
@@ -107,7 +107,7 @@ Response:
 ### Get Book by ID
 Request:
 ```
-curl --location 'http://locahost//book/1' \
+curl --location 'http://localhost//book/1' \
 --header 'Accept: application/json'
 ```
 
@@ -127,7 +127,7 @@ Response:
 ### Update a Book
 Request:
 ```
-curl --location --request PUT 'http://locahost/book/1' \
+curl --location --request PUT 'http://localhost/book/1' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -151,7 +151,7 @@ Response:
 ### Delete a Book
 Request:
 ```
-curl --location --request DELETE 'http://locahost/book/1' \
+curl --location --request DELETE 'http://localhost/book/1' \
 --header 'Accept: application/json' \
 --data ''
 ```
