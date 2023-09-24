@@ -27,5 +27,6 @@ curl -X PUT http:/localhost:8000/movies/1 -H 'Content-Type: application/json' -d
 ```
 
 Deleting a Movie
-```curl -X DELETE http:/localhost:8000/movies/1 -H 'Content-Type: application/json'
+```
+curl -X DELETE http:/localhost:8000/movies/1 -H 'Content-Type: application/json'
 ```
